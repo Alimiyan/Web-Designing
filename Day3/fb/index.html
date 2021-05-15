@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form class="form-cls">
+                    <table class="login-controls">
+                        <tr>
+                            <td><label class="login-label">Email or Mobile</label></td>
+                            <td><label class="login-label">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td><button class="sub-btn" type="submit">Login</button></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a class="forgotten" href="forgotten.html">Forgotten account?</a> </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the <br>people in your life.</p>
+                <img class="fb-img" src="fb.png">
+            </div>
+            <div class="right-section">
+                <h1>Create an account</h1>
+                <h3 class="font2">It's quick and easy.</h3>
+                <form class="body-acc" id="signup-form">
+                    <table >
+                        <tr>
+                            <td><input name="fname" class="firstrw" type="text" placeholder="First name"></td>
+                            <td><input name="sname" class="secondrw" type="text" placeholder="Surname"></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td><input name="emailad" class="mn" type="text" placeholder="Mobile number or email address"></td>
+                        </tr>
+                        <tr>
+                            <td><input name="paswrd" class="pswrd" type="password" placeholder="New password"></td>
+                        </tr>
+                    
+                    </table>
+                    <h2 class="fonts">Birthday</h2>
+                    <table>
+                        <tr>
+                            <td ><select class="day" name="dayyy">
+                                <option value="">Day</option>
+                                <option value='01'>01</option>
+                                <option value='02'>02</option>
+                                <option value='03'>03</option>
+                                <option value='04'>04</option>
+                                <option value='05'>05</option>
+                                <option value='06'>06</option>
+                                <option value='07'>07</option>
+                                <option value='08'>08</option>
+                                <option value='09'>09</option>
+                                <option value='10'>10</option>
+                                <option value='11'>11</option>
+                                <option value='12'>12</option>
+                                <option value='13'>13</option>
+                                <option value='14'>14</option>
+                                <option value='15'>15</option>
+                                <option value='16'>16</option>
+                                <option value='17'>17</option>
+                                <option value='18'>18</option>
+                                <option value='19'>19</option>
+                                <option value='20'>20</option>
+                                <option value='21'>21</option>
+                                <option value='22'>22</option>
+                                <option value='23'>23</option>
+                                <option value='24'>24</option>
+                                <option value='25'>25</option>
+                                <option value='26'>26</option>
+                                <option value='27'>27</option>
+                                <option value='28'>28</option>
+                                <option value='29'>29</option>
+                                <option value='30'>30</option>
+                                <option value='31'>31</option>
+                                </select>
+                                </td>
+                            <td ><select class="month"name="monthhh" >
+                                <option value="">month</option>
+                                <option value="january">jan</option>
+                                <option >feb</option>
+                                <option >mar</option>
+                                <option >apr</option>
+                                <option >may</option>
+                                <option >jun</option>
+                                <option >jul</option>
+                                <option >aug</option>
+                                <option >sep</option>
+                                <option >oct</option>
+                                <option >nov</option>
+                                <option >dec</option>
+                            </select></td>
+                            <td >
+                                <select class="year" name="yearrr">
+                                    <option value="">year</option>
+                                    <option value="1996">1996</option>
+                                    <option>1997</option>
+                                    <option>1998</option>
+                                    <option>1999</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <h2 class="fonts">Gender</h2>
+                    <table>
+                        <tr>
+                            <td><input name="gender" type="radio">Female</td>
+                            <td><input name="gender" type="radio">Male</td>
+                            <td><input name="gender" type="radio">Custom</td>
+                            
+                        </tr>
+                    </table>
+                    <p class="des">By clicking Sign Up,you agree to our Terms.Learn how we<br> collect, use and share your data in our Data policy and how <br>we use cookies and similar technology in our Cookie Policy.<br>You may recieve SMS notifications from us and can opt out<br> at any time.</p>
+                <input type="submit" class="signup" value="Sign Up">
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

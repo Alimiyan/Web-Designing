@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #scr{
+        width: 300px;
+        height: 350px;
+        border: solid 2px;
+    }
+</style>
+<body>
+    <div id="scr">
+        
+    </div>
+        <button onclick="change('red')">Red</button>
+        <button onclick="change('yellow')">Yellow</button>
+        <button onclick="change('black')">Black</button>
+        <button onclick="change('green')">Green</button>
+
+        <script>
+            function change(val){
+                document.getElementById("scr").style.background=val
+            }
+        </script>
+</body>
+</html>
