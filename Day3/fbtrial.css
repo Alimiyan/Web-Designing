@@ -1,89 +1,19 @@
-img{
-    height: 106px;
-    margin: -28px;
-    padding-left: 257px;
-    padding-top: 28px;
-}
-h2{
-    font-size: 24px;
-    line-height: 28px;
-}
-.writing{
-    margin-left: 250px;
-    width: 500px;
-}
-.fbwr{
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 32px;
-    width: 500px;
-    margin-top: 16px;
-    margin-left: 6px;
-}
-.maindiv{
-    width: 100%;
-    height: 620px;
-    background: rgb(235, 234, 234);
-}
 body{
-    margin: 0;
+    font:Helvetica, Arial, sans-serif;
 }
-.left-sec{
-    float: left;
-    margin-top: 143px;
-    margin-left: -72px;
+.left-section{
+    margin-top: 175px;
+    margin-left: 142px;
 }
-.fblogo{
-  margin-top: 5px;
+.fb-image{
+    height: 118px;
+    margin: -28px;
 }
-
-.right-sec{
-    float: left;
-    margin-top: 136px;
-    margin-left: 34px;
-}
-.signin-tbl{
-    margin-top: 172px;
-    margin-left: 46px;
-}
-.email{
-    height: 23px;
-    width: 166px;
-    font-size: 17px;
-    
-}
-.pass{
-    height: 23px;
-    width: 166px;
-    font-size: 17px;
-    margin-top: 3px;
-}
-.log-btn{
-    background: rgb(22, 111, 229);
-    color: white;
-    cursor: pointer;
-    width:60px;
-    height: 25px;
-    font-size: 15px;
-    margin-top: 3px;
-}
-.log-btn:hover{
-    background: rgb(37, 37, 175);
-}
-.form{
-    margin-top: -5px;
-    margin-left: 53px;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px, rgba(0, 0, 0, 0.1) 0px 8px 16px;
-    box-sizing: border-box;
-    width: 396px;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    border-radius: 8px;
-    margin: 40px 0px 0px;
-    padding: 20px 0px 28px;
+.fb-text{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 31px;
+    font-weight: normal;
+    line-height: 35px;
+    margin-top: 22px;
+    margin-left: 5px;
 }
