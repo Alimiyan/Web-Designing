@@ -1,13 +1,15 @@
 body{
     font:Helvetica, Arial, sans-serif;
-    background: rgb(240, 236, 236);
+    background: #f0f2f5;
 }
 
 .fb-text{
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 .left{
-    margin: 10%;
+    
+    margin-top: 13%;
+    margin-left: 13%;
 }
 .right{
     background-color: white;
@@ -34,7 +36,6 @@ body{
     height: 52px;
     border-radius: 5px;
     font-size: 18px;
-    font-weight: bold;
 }
 .form-group{
     padding: 20px;
@@ -44,4 +45,8 @@ body{
 }
 h6{
     margin-top: 40px;
+}
+.fb-img{
+    margin-left: -30px;
+    width:fit-content;
 }
